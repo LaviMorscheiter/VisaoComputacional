@@ -1,0 +1,13 @@
+sobre o teste 1
+
+primeiramente ele cria uma matriz 5x5 e colocamos o valor como '2' nelas.
+após isso, criamos uma "matriz_maior" que seria para selecionar tal matriz(como por exemplo no codigo, selecionamos a [0][2] e a [2][1]) para mudar o valor.
+depois criamos uma matriz_menor de 3x3 e colocamos os valores como '1'
+
+ficará assim depois:
+
+[2 2 9 2 2]     [1 1 1]
+[2 2 2 2 2]  &  [1 1 1]
+[2 5 2 2 2]     [1 1 1]
+
+ai, criamos a matriz_resultado que será preenchida por zeros, depois as matrizes terão uma "redução" de tamanho por conta do 'matriz_maior.size(0)-2'. o que esse código quer dizer? a matriz no começo era 5x5, e com esse código nós iremos pegar a matriz_maior e diminuir '2' dimensões, então, de certa forma estamos criando uma segunda matriz que seria 3x3.
